@@ -1,6 +1,14 @@
 # House Hunter Overview
 A tool for looking at housing prices
 
+# System design
+
+- Data manager
+    * This is an orchestrator class for handling data collector
+
+- Data collector
+    * scrapes and collects data, collates in pandas data frames
+        + might be good to have options to pull to data base
 
 # References
 - https://oxylabs.io/blog/scraping-real-estate-data
